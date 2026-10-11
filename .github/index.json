@@ -1,0 +1,14 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.index",
+  "agent": "desktop-commander-agent",
+  "entries": [
+    {
+      "route": "@desktop-commander-agent /desktop-commander:desktop-commander",
+      "plugin": "desktop-commander",
+      "skill": "desktop-commander",
+      "description": "Use the Remote Desktop Commander connector as a bounded filesystem and PowerShell runtime adapter for PMCR-O workflows. Read-only discovery is the default; writes and processes require scoped grants.",
+      "path": ".pmcro/plugins/desktop-commander/skills/desktop-commander"
+    }
+  ]
+}

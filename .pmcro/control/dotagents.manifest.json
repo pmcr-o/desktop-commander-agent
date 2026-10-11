@@ -1,0 +1,16 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "desktop-commander-agent",
+  "owner": "pmcr-o",
+  "description": "Desktop Commander runtime-adapter agent with shared agent/manual script entrypoints.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "desktop-commander",
+      "source": "./.pmcro/plugins/desktop-commander",
+      "description": "desktop-commander capabilities owned by desktop-commander-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents"
+}

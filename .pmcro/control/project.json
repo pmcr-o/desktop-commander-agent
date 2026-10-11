@@ -1,0 +1,32 @@
+{
+  "schema": "pmcro.agent-project/v1",
+  "id": "desktop-commander-agent",
+  "description": "Desktop Commander runtime-adapter agent with shared agent/manual script entrypoints.",
+  "derivedFrom": "A:\\marketplace\\eng\\src\\desktop-commander",
+  "template": "agent-skills-template",
+  "canonical": ".pmcro",
+  "projection": ".agents",
+  "hostChain": ".claude/.grok/.cursor/.github -> .agents -> .pmcro",
+  "requiredSkillShape": [
+    "SKILL.md",
+    "agents/",
+    "scripts/",
+    "references/",
+    "assets/",
+    "tests/"
+  ],
+  "autonomousLoop": {
+    "enabled": true,
+    "questionGate": false,
+    "onQuestion": "resolve-from-context-or-halt",
+    "phaseOrder": [
+      "orchestrate",
+      "plan",
+      "make",
+      "check",
+      "reflect"
+    ]
+  },
+  "orchestratorRole": "domain-orchestrator",
+  "agentIsOrchestrator": true
+}

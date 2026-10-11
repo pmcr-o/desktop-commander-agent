@@ -1,0 +1,9 @@
+{
+  "kind": "agent.handoff",
+  "messageId": "fixture-001",
+  "sourceAgent": "pmcro-agent",
+  "targetAgent": "desktop-commander-agent",
+  "trailId": "trail:fixture",
+  "cycleId": "cycle:fixture",
+  "evidenceStatus": "NOT-RUN"
+}

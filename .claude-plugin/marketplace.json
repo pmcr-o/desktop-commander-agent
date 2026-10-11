@@ -1,0 +1,16 @@
+{
+  "name": "desktop-commander-agent",
+  "owner": {
+    "name": "pmcr-o"
+  },
+  "metadata": {
+    "description": "Desktop Commander runtime-adapter agent with shared agent/manual script entrypoints."
+  },
+  "plugins": [
+    {
+      "name": "desktop-commander",
+      "source": "./.pmcro/plugins/desktop-commander",
+      "description": "desktop-commander capabilities owned by desktop-commander-agent"
+    }
+  ]
+}
