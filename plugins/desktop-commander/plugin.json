@@ -1,0 +1,6 @@
+﻿{
+  "name": "desktop-commander",
+  "version": "0.1.0",
+  "description": "Bounded Desktop Commander runtime adapter with agent/manual parity.",
+  "skills": ["./skills/"]
+}

@@ -1,4 +1,4 @@
-# Agent/manual parity
+﻿# Agent/manual parity
 
 Both the agent route and a human terminal use `scripts/operate.ps1`.
 
